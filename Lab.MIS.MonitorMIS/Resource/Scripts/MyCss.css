@@ -1,0 +1,943 @@
+﻿body, html {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+    cursor: pointer;
+}
+
+#MainDiv {
+    width: 100%;
+    height: 100%;
+}
+
+#mapDiv {
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+}
+
+input, b, p {
+    margin-left: 5px;
+    font-size: 14px;
+}
+
+#headDiv {
+    position: absolute;
+    width: 100%;
+    height: 60px;
+    background-color: white;
+    border-bottom: 1px solid #ccc;
+    box-shadow: 0 1px 3px rgba(0,0,0,.25);
+    z-index: 100;
+    opacity: 1;
+}
+
+#mine {
+    position: relative;
+    float: left;
+    left: 8px;
+    top: 12px;
+    border: 1px solid #d4d4d4;
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+}
+
+#logonState {
+    position: relative;
+    float: left;
+    left: 18px;
+    top: 20px;
+    /*font-family:'Century Schoolbook';*/
+    font-size: 15px;
+}
+
+#mine span {
+    color: #3199d6;
+}
+
+#LogoImg {
+    width: 400px;
+    height: 55px;
+    float: left;
+    cursor: pointer;
+    margin-left: 20px;
+    margin-top: 5px;
+}
+
+#rightBar {
+    margin-top: 15px;
+    margin-right: 60px;
+    float: right;
+    height: 34px;
+    width: 5%;
+}
+
+.my_btn-group {
+    margin-top: 18px;
+    float: right;
+}
+
+.seperator {
+    float: left;
+    width: 1px;
+    height: 30px;
+    background-color: #d4d4d4;
+    margin-top: 18px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+#mainMenuBtn {
+    float: right;
+    height: 34px;
+    width: 34px;
+    cursor: pointer;
+    background-image: url("../../Resource/Img/TiandituIcon.png");
+    background-repeat: no-repeat;
+    background-position-x: -23px;
+    background-position-y: 9px;
+}
+
+
+#side_bar {
+    z-index: 1000;
+    position: absolute;
+    width: 450px;
+    height: 100%;
+    top: 61px;
+    left: 0px;
+    background: #fff;
+    border-right: 1px solid #aaa;
+    -webkit-transition: left .5s ease;
+    transition: left .5s ease;
+    z-index: 6;
+    box-shadow: 1px 0 5px rgba(0,0,0,.5);
+    border-collapse: separate;
+}
+
+#SearchMainTable {
+    /*position: absolute;*/
+    left: 5px;
+    top: 0px;
+    border: 1px;
+    width: 99%;
+    margin-bottom: 5px;
+}
+
+#btng {
+    width: 99%;
+    height: 64px;
+    position: relative;
+    padding-top: 5px;
+}
+
+#SearchDiseaseInfoDiv {
+    position: relative;
+    width: 99%;
+    height: 100%;
+    margin: 0px;
+    overflow-x: auto;
+    background-color: white;
+    overflow-x: auto;
+    white-space: nowrap;
+}
+
+#SearchDiseaseInfoTable {
+    position: absolute;
+    min-width: 900px;
+}
+
+
+#handlerDiv {
+    width: 2px;
+    height: 100%;
+    float: right;
+    cursor: col-resize;
+    background-color: black;
+}
+
+#side_barController {
+    position: absolute;
+    width: 20px;
+    height: 40px;
+    background: hsla(0,0%,100%,.6);
+    top: 9px;
+    right: -22px;
+    border: 1px solid #aaa;
+    border-left: none;
+    cursor: pointer;
+    display: block;
+    -webkit-transition: .2s;
+    transition: .2s;
+    cursor: pointer;
+    background-image: url("../../Resource/Img/TiandituIcon.png");
+    background-repeat: no-repeat;
+    background-position-x: -515px;
+    background-position-y: -233px;
+}
+
+.ToolBox {
+    text-align: center;
+    color: #3199d6;
+}
+
+    .ToolBox:hover {
+        background-color: #3199d6;
+        color: white;
+    }
+
+.dropdown-menu {
+    margin: 0;
+    padding: 0;
+}
+
+/*登录模态框的位置*/
+.modal-title.logIn {
+    text-align: center;
+}
+
+.myimg-responsive {
+    border-radius: 100px;
+    margin: 0 auto;
+}
+
+
+#layer {
+    width: 30px;
+    height: 30px;
+    background-color: white;
+    background-image: url("../../Resource/Img/TiandituIcon.png");
+    background-repeat: no-repeat;
+    background-position-x: -521px;
+    background-position-y: -210px;
+    position: absolute;
+    right: 10px;
+    top: 80%;
+    z-index: 1000;
+    box-shadow: 0 1px 3px rgba(0,0,0,.25);
+}
+
+
+
+tr {
+    padding: 0px;
+    margin: 0;
+    height: 40px;
+}
+
+
+#LoadingGif {
+    width: 320px;
+    height: 240px;
+    position: absolute;
+}
+
+
+table {
+    text-align: left;
+    font-size: 19px;
+    font-family: inherit;
+}
+
+.H1 {
+    text-align: center;
+}
+
+#Layer {
+    position: absolute;
+    right: 10px;
+    top: 80%;
+    z-index: 1000;
+    box-shadow: 0 1px 3px rgba(0,0,0,.25);
+}
+
+
+li:hover {
+    color: gray;
+}
+
+#ChangeSearchParameters {
+    position: relative;
+    display: none;
+    width: 100%;
+    height: 60px;
+    color: #3199d6;
+    line-height: 60px;
+    text-align: center;
+    font-family: inherit;
+    font-size: 25px;
+    text-shadow: 0px 2px 3px #ADADAD;
+}
+
+
+#SearchMainTable caption {
+    font-family: inherit;
+    background-color: #3199d6;
+    color: white;
+    line-height: 50px;
+    height: 50px;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+#SearchMainTable h4 {
+    margin: 0;
+    padding: 0;
+}
+
+#SearchMainTable td {
+    height: 40px;
+}
+
+#SearchMainTable input {
+    height: 30px;
+}
+
+.greenbtn {
+    color: white;
+    background-color: #8cc269;
+}
+
+.redbtn {
+    color: white;
+    background-color: #ef82a0;
+}
+
+#searchSelect {
+    color: white;
+    background-color: #8fb2c9;
+}
+
+    #searchSelect.btn-default {
+        min-width: 182px;
+    }
+
+#searchSelectType {
+    color: white;
+    background-color: #8fb2c9;
+}
+
+    #searchSelectType.btn-default {
+        min-width: 182px;
+    }
+
+
+
+#RemoveWarningPointBtn {
+    line-height: 24px;
+    font-size: 18px;
+    background-color: gray;
+    text-align: center;
+    border-color: rgb(204, 204, 204);
+    border-radius: 6px;
+    border-style: solid;
+    border-width: 1px;
+    text-size-adjust: 100%;
+    color: white;
+    margin-right: 40px;
+}
+
+#exportExcelBtn {
+    line-height: 24px;
+    font-size: 18px;
+    background-color: gray;
+    text-align: center;
+    border-color: rgb(204, 204, 204);
+    border-radius: 6px;
+    border-style: solid;
+    border-width: 1px;
+    text-size-adjust: 100%;
+    color: white;
+}
+
+#tree-modal-body {
+    padding: 0px;
+}
+
+
+
+/*隐藏天地图自带logo*/
+.tdt-touch .tdt-bar, .tdt-touch .tdt-control-copyright, .tdt-touch .tdt-control-layers {
+    display: none;
+}
+
+/*展示图片*/
+.carousel-inner > .item > img, .carousel-inner > .item > a > img {
+    width: 600px;
+    height: 250px;
+}
+
+#layertoimg, #layertoter, #layertoori {
+    padding: 0 4px;
+}
+
+#layertoimg1, #layertoter1, #layertoori1 {
+    padding: 0 4px;
+}
+
+.thumbnail {
+    padding: 0px;
+    margin: 0px;
+    position: relative;
+}
+
+    .thumbnail p {
+    }
+
+.row {
+    border: none;
+    position: absolute;
+    right: 55px;
+    top: 74%;
+    width: 250px;
+    height: 90px;
+    z-index: 60;
+    display: none;
+}
+
+.row1 {
+    border: none;
+    position: absolute;
+    right: 55px;
+    top: 74%;
+    width: 250px;
+    height: 90px;
+    z-index: 1000;
+    display: none;
+}
+
+#LayerContent {
+    background-position: -521px -210px;
+    width: 30px;
+    height: 30px;
+    background-color: white;
+    background-image: url('../Img/TiandituIcon.png');
+    background-repeat: no-repeat;
+    position: absolute;
+    right: 10px;
+    top: 74%;
+    z-index: 1000;
+    box-shadow: 0 1px 3px rgba(0,0,0,.25);
+}
+
+#LayerContent1 {
+    background-position: -521px -210px;
+    width: 30px;
+    height: 30px;
+    background-color: white;
+    background-image: url('../Img/TiandituIcon.png');
+    background-repeat: no-repeat;
+    position: absolute;
+    right: 10px;
+    top: 74%;
+    z-index: 1000;
+    box-shadow: 0 1px 3px rgba(0,0,0,.25);
+}
+
+.layer-tip {
+    text-align: center;
+    font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+    line-height: 15px;
+    background: rgba(0,0,0,.5);
+    color: white;
+    height: 25px;
+    width: 100%;
+    padding: 4px 0;
+    margin: 0;
+    position: absolute;
+    bottom: 0;
+}
+
+/*动态按钮*/
+a {
+    color: inherit; /*继承*/
+}
+
+.menu {
+    /*position: absolute;*/
+    float: right;
+    right: 20px;
+    width: 400px;
+    height: 60px;
+    box-sizing: border-box;
+    font-size: 20px;
+    text-align: center;
+}
+
+.menu-item, .menu-open-button {
+    background: #3199d6;
+    border-radius: 100%;
+    width: 40px;
+    height: 40px;
+    -moz-box-shadow: 0 1px 3px rgba(0,0,0,.25);
+    -webkit-box-shadow: 0 1px 3px rgba(0,0,0,.25);
+    box-shadow: 0 1px 3px rgba(0,0,0,.25);
+    margin-left: -20px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    color: white;
+    text-align: center;
+    line-height: 50px;
+    -webkit-transform: translate3d(0, 0, 0); /*translate3d(0, 0, 0)定义 3D 转换。分别表示他在三个方向上移动的距离*/
+    transform: translate3d(0, 0, 0);
+    transition: -webkit-transform ease-out 200ms; /*设置过渡动画*/
+    transition: transform ease-out 200ms;
+    transition: transform ease-out 200ms, -webkit-transform ease-out 200ms;
+    cursor: pointer;
+}
+
+.menu-open {
+    display: none;
+}
+
+.hamburger {
+    width: 20px;
+    height: 3px;
+    background: white;
+    display: block;
+    position: absolute; /*绝对定位*/
+    top: 50%;
+    left: 50%;
+    margin-left: -10px;
+    margin-top: -1.5px;
+    transition: -webkit-transform 200ms;
+    transition: transform 200ms;
+    transition: transform 200ms, -webkit-transform 200ms;
+}
+
+.hamburger-1 {
+    -webkit-transform: translate3d(0, -8px, 0);
+    transform: translate3d(0, -8px, 0);
+}
+
+.hamburger-2 {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+}
+
+.hamburger-3 {
+    -webkit-transform: translate3d(0, 8px, 0);
+    transform: translate3d(0, 8px, 0);
+}
+
+.menu-open:checked + .menu-open-button .hamburger-1 {
+    -webkit-transform: rotate(45deg) translate3d(-2px, -5px, 0);
+    transform: rotate(45deg) translate3d(-2px, -5px, 0);
+    height: 5px;
+}
+
+.menu-open:checked + .menu-open-button .hamburger-2 {
+    -webkit-transform: translate3d(2px, 0, 0) scale(0, 0);
+    transform: translate3d(2.5px, 0, 0) scale(.1, .1);
+}
+
+.menu-open:checked + .menu-open-button .hamburger-3 {
+    -webkit-transform: rotate(-45deg) translate3d(-2px, 5px, 0);
+    transform: rotate(-45deg) translate3d(-2px, 5px, 0);
+    height: 5px;
+}
+
+
+.menu-item:hover {
+    background: white;
+    color: #3199d6;
+}
+
+.menu-item:nth-child(3) {
+    transition-duration: 180ms; /*持续时间*/
+}
+
+.menu-item:nth-child(4) {
+    transition-duration: 180ms;
+}
+
+.menu-item:nth-child(5) {
+    transition-duration: 180ms;
+}
+
+.menu-item:nth-child(6) {
+    transition-duration: 180ms;
+}
+
+.menu-item:nth-child(7) {
+    transition-duration: 180ms;
+}
+
+.menu-item:nth-child(8) {
+    transition-duration: 180ms;
+}
+
+.menu-item:nth-child(9) {
+    transition-duration: 180ms;
+}
+
+.menu-open-button {
+    z-index: 2;
+    /*transition-timing-function 属性规定过渡效果的速度曲线。在 cubic-bezier 函数中定义自己的值。可能的值是 0 至 1 之间的数值。*/
+    transition-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    transition-duration: 400ms; /*持续时间*/
+    -webkit-transform: scale(1.1, 1.1) translate3d(0, 0, 0);
+    transform: scale(1.1, 1.1) translate3d(0, 0, 0);
+    cursor: pointer; /*光标为手*/
+}
+
+    .menu-open-button:hover {
+        -webkit-transform: scale(1.2, 1.2) translate3d(0, 0, 0);
+        transform: scale(1.2, 1.2) translate3d(0, 0, 0);
+    }
+
+/*选中之后变小*/
+.menu-open:checked + .menu-open-button {
+    transition-timing-function: linear;
+    transition-duration: 200ms;
+    -webkit-transform: scale(0.8, 0.8) translate3d(0, 0, 0);
+    transform: scale(0.8, 0.8) translate3d(0, 0, 0);
+}
+
+.menu-open:checked ~ .menu-item {
+    transition-timing-function: cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+    /*选择前面有 .menu-open:checked元素的每个 .menu-item:nth-child(3) 元素*/
+    .menu-open:checked ~ .menu-item:nth-child(3) {
+        transition-duration: 190ms;
+        -webkit-transform: translate3d(-60px, 0, 0);
+        transform: translate3d(-60px, 0, 0);
+    }
+
+    .menu-open:checked ~ .menu-item:nth-child(4) {
+        transition-duration: 290ms;
+        -webkit-transform: translate3d(-120px, 0, 0);
+        transform: translate3d(-120px, 0, 0);
+    }
+
+    .menu-open:checked ~ .menu-item:nth-child(5) {
+        transition-duration: 390ms;
+        -webkit-transform: translate3d(-180px, 0, 0);
+        transform: translate3d(-180px, 0, 0);
+    }
+
+    .menu-open:checked ~ .menu-item:nth-child(6) {
+        transition-duration: 490ms;
+        -webkit-transform: translate3d(-240px, 0, 0);
+        transform: translate3d(-240px, 0, 0);
+    }
+
+    .menu-open:checked ~ .menu-item:nth-child(7) {
+        transition-duration: 490ms;
+        -webkit-transform: translate3d(-300px, 0, 0);
+        transform: translate3d(-300px, 0, 0);
+    }
+
+    .menu-open:checked ~ .menu-item:nth-child(8) {
+        transition-duration: 490ms;
+        -webkit-transform: translate3d(-360px, 0, 0);
+        transform: translate3d(-360px, 0, 0);
+    }
+
+    .menu-open:checked ~ .menu-item:nth-child(9) {
+        transition-duration: 490ms;
+        -webkit-transform: translate3d(-420px, 0, 0);
+        transform: translate3d(-420px, 0, 0);
+    }
+
+    .menu-open:checked ~ .menu-item:nth-child(10) {
+        transition-duration: 490ms;
+        -webkit-transform: translate3d(-480px, 0, 0);
+        transform: translate3d(-480px, 0, 0);
+    }
+
+    .menu-open:checked ~ .menu-item:nth-child(11) {
+        transition-duration: 490ms;
+        -webkit-transform: translate3d(-540px, 0, 0);
+        transform: translate3d(-540px, 0, 0);
+    }
+
+    .menu-open:checked ~ .menu-item:nth-child(12) {
+        transition-duration: 490ms;
+        -webkit-transform: translate3d(-600px, 0, 0);
+        transform: translate3d(-600px, 0, 0);
+    }
+
+.menu-item-span {
+    width: 100%;
+    height: 40px;
+    float: left;
+    font-family: inherit;
+    font-size: 15px;
+    line-height: 40px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+    .menu-item-span:hover {
+        background-color: #3199d6;
+    }
+
+.menu-item-spanf {
+    text-align: center;
+    float: left;
+    line-height: 40px;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+}
+/*END动态按钮*/
+/*动态搜索框*/
+.search, .search * {
+    box-sizing: border-box;
+}
+
+.search {
+    width: 40px;
+    height: 40px;
+    border-radius: 40px;
+    background-color: #3199d6;
+    position: absolute;
+    overflow: hidden;
+    transition: all 0.5s ease;
+}
+
+    /*蓝色框*/
+    .search:before {
+        content: '';
+        display: block;
+        width: 3px;
+        height: 100%;
+        position: absolute;
+        left: -3px;
+        background-color: white;
+        transition: all 0.5s ease;
+    }
+
+    .search.open {
+        width: 180px;
+    }
+
+        .search.open:before {
+            height: 24px;
+            margin: 8px 0 8px 12px;
+            position: absolute;
+            left: 2px;
+        }
+
+.search-box {
+    width: 100%;
+    height: 100%;
+    box-shadow: none;
+    border: none;
+    background: transparent;
+    color: #fff;
+    padding: 8px 60px 8px 18px;
+    font-size: 20px;
+    position: relative;
+    bottom: 4px;
+}
+
+    .search-box:focus {
+        outline: none;
+    }
+
+.search-button {
+    width: 40px;
+    height: 40px;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 8px;
+    cursor: pointer;
+}
+
+.search-icon {
+    width: 20px;
+    height: 20px;
+    border-radius: 20px;
+    border: 3px solid white;
+    display: block;
+    position: relative;
+    margin-left: 1px;
+    transition: all 0.5s ease;
+}
+
+    .search-icon:before {
+        content: '';
+        width: 3px;
+        height: 6px;
+        position: absolute;
+        right: -0.8px;
+        top: 12px;
+        display: block;
+        background-color: white;
+        transform: rotate(-45deg);
+        transition: all 0.5s ease;
+    }
+
+    .search-icon:after {
+        content: '';
+        width: 3px;
+        height: 6px;
+        position: absolute;
+        right: -4.8px;
+        top: 16px;
+        display: block;
+        background-color: white;
+        transform: rotate(-45deg);
+        transition: all 0.5s ease;
+    }
+
+.open .search-icon {
+    position: absolute;
+    top: 4.5px;
+    margin: 0;
+    width: 30px;
+    height: 30px;
+    border-radius: 30px;
+}
+
+    .open .search-icon:before {
+        transform: rotate(52deg);
+        right: 8.8px;
+        top: 10px;
+        height: 10px;
+    }
+
+    .open .search-icon:after {
+        transform: rotate(-230deg);
+        right: 8.8px;
+        top: 5.2px;
+        height: 10px;
+    }
+
+
+#SearchDiv {
+    float: right;
+    width: 400px;
+    height: 100%;
+    line-height: 34px;
+    margin-top: 13px;
+    margin-left: 20px;
+}
+
+#SearchContent {
+    float: left;
+}
+
+    #SearchContent:hover {
+        background-color: #3199d6;
+    }
+
+#SearchText {
+    font-size: 20px;
+    width: 200px;
+}
+
+#SearchResultContent {
+    height: auto;
+    width: 350px;
+    overflow-y: auto;
+    overflow-x: auto;
+    display: none;
+    position: absolute;
+    right: 430px;
+    top: 60px;
+    cursor: pointer;
+}
+
+#VagueTable {
+    background-color: white;
+    color: gray;
+}
+
+#SearchResultContent .table-hover > tbody > tr:hover {
+    color: white;
+    background-color: #5dbe8a;
+}
+
+
+
+.biaozhu {
+    color: red;
+}
+
+#SearchDiv {
+    float: right;
+    width: 400px;
+    height: 100%;
+    line-height: 34px;
+    margin-top: 13px;
+    margin-left: 20px;
+}
+/*END动态搜索框*/
+
+
+.tooltip-inner {
+    width: 76px;
+}
+
+
+#SearchMainTable h4 {
+    padding: 0 6px;
+}
+
+#GetPointMapDiv {
+    height: 100%;
+    width: 500px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    border: 10px;
+    z-index: 10000;
+    box-shadow: 0px 0px 20px #000;
+}
+
+.address {
+    /*width:400px;*/
+    height: 30px;
+    position: relative;
+    bottom: 30px;
+    z-index: 2;
+    margin: 0 auto;
+    text-align: center;
+}
+
+    .address span {
+        color: gray;
+    }
+
+.necessary {
+    color: red;
+}
+
+.GetPointByMap_class {
+    /*position:absolute;*/
+    left: 40px;
+}
+
+.enteringg_modal_body {
+    padding: 0px;
+}
+
+.tdt-label1 {
+    height: 20px;
+    padding: 0px 0px;
+}
+
+select{
+    position: relative;
+    left: 5px;
+    width:157px;
+}
+
+#TreeDeviceInfoModal input, #MonitorInfoModal input, #EnteringDeviceInfoModal input, #DeviceInfoModal input{
+    width: 157px;
+}
+
+#MonitorType {
+    padding-left: 15px;
+}
+

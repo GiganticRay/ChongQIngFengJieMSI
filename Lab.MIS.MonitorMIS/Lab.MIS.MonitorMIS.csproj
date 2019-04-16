@@ -1,0 +1,383 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{3281A8CA-19B7-42E8-AF36-373913833A27}</ProjectGuid>
+    <ProjectTypeGuids>{E3E379DF-F4C6-4180-9B81-6769533ABE47};{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Lab.MIS.MonitorMIS</RootNamespace>
+    <AssemblyName>Lab.MIS.MonitorMIS</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <MvcBuildViews>false</MvcBuildViews>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <Use64BitIISExpress />
+    <UseGlobalApplicationHostFile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Web.Abstractions" />
+    <Reference Include="System.Web.Routing" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="Microsoft.Web.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.Web.Infrastructure.1.0.0.0\lib\net40\Microsoft.Web.Infrastructure.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Web.Mvc.FixedDisplayModes, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.Mvc.FixedDisplayModes.1.0.0\lib\net40\Microsoft.Web.Mvc.FixedDisplayModes.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>..\packages\Newtonsoft.Json.4.5.11\lib\net40\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Http">
+    </Reference>
+    <Reference Include="System.Net.Http.Formatting, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.WebApi.Client.4.0.30506.0\lib\net40\System.Net.Http.Formatting.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Http.WebRequest">
+    </Reference>
+    <Reference Include="System.Web.Helpers, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.2.0.30506.0\lib\net40\System.Web.Helpers.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Http, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.WebApi.Core.4.0.30506.0\lib\net40\System.Web.Http.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Http.WebHost, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.WebApi.WebHost.4.0.30506.0\lib\net40\System.Web.Http.WebHost.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Mvc, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.Mvc.4.0.30506.0\lib\net40\System.Web.Mvc.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Razor, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.Razor.2.0.30506.0\lib\net40\System.Web.Razor.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.WebPages, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.2.0.30506.0\lib\net40\System.Web.WebPages.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.WebPages.Deployment, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.2.0.30506.0\lib\net40\System.Web.WebPages.Deployment.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.WebPages.Razor, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.2.0.30506.0\lib\net40\System.Web.WebPages.Razor.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\PicUpload.ashx.cs">
+      <DependentUpon>PicUpload.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="App_Start\FilterConfig.cs" />
+    <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="App_Start\WebApiConfig.cs" />
+    <Content Include="Global.asax" />
+    <Content Include="Home.html" />
+    <Content Include="Resource\bootstrap-datetimepicker-master\.gitattributes" />
+    <Content Include="Resource\bootstrap-datetimepicker-master\.gitignore" />
+    <Content Include="Resource\bootstrap-datetimepicker-master\css\bootstrap-datetimepicker.css" />
+    <Content Include="Resource\bootstrap-datetimepicker-master\css\bootstrap-datetimepicker.min.css" />
+    <Content Include="Resource\bootstrap-datetimepicker-master\Gruntfile.js" />
+    <Content Include="Resource\bootstrap-datetimepicker-master\js\bootstrap-datetimepicker.js" />
+    <Content Include="Resource\bootstrap-datetimepicker-master\js\bootstrap-datetimepicker.min.js" />
+    <Content Include="Resource\bootstrap-datetimepicker-master\js\locales\bootstrap-datetimepicker.ar.js" />
+    <Content Include="Resource\bootstrap-datetimepicker-master\js\locales\bootstrap-datetimepicker.az.js" />
+    <Content Include="Resource\bootstrap-datetimepicker-master\js\locales\bootstrap-datetimepicker.bg.js" />
+    <Content Include="Resource\bootstrap-datetimepicker-master\js\locales\bootstrap-datetimepicker.bn.js" />
+    <Content Include="Resource\bootstrap-datetimepicker-master\js\locales\bootstrap-datetimepicker.ca.js" />
+    <Content Include="Resource\bootstrap-datetimepicker-master\js\locales\bootstrap-datetimepicker.cs.js" />
+    <Content Include="Resource\bootstrap-datetimepicker-master\js\locales\bootstrap-datetimepicker.da.js" />
+    <Content Include="Resource\bootstrap-datetimepicker-master\js\locales\bootstrap-datetimepicker.de.js" />
+    <Content Include="Resource\bootstrap-datetimepicker-master\js\locales\bootstrap-datetimepicker.ee.js" />
+    <Content Include="Resource\bootstrap-datetimepicker-master\js\locales\bootstrap-datetimepicker.el.js" />
+    <Content Include="Resource\bootstrap-datetimepicker-master\js\locales\bootstrap-datetimepicker.es.js" />
+    <Content Include="Resource\bootstrap-datetimepicker-master\js\locales\bootstrap-datetimepicker.fi.js" />
+    <Content Include="Resource\bootstrap-datetimepicker-master\js\locales\bootstrap-datetimepicker.fr.js" />
+    <Content Include="Resource\bootstrap-datetimepicker-master\js\locales\bootstrap-datetimepicker.he.js" />
+    <Content Include="Resource\bootstrap-datetimepicker-master\js\locales\bootstrap-datetimepicker.hr.js" />
+    <Content Include="Resource\bootstrap-datetimepicker-master\js\locales\bootstrap-datetimepicker.hu.js" />
+    <Content Include="Resource\bootstrap-datetimepicker-master\js\locales\bootstrap-datetimepicker.hy.js" />
+    <Content Include="Resource\bootstrap-datetimepicker-master\js\locales\bootstrap-datetimepicker.id.js" />
+    <Content Include="Resource\bootstrap-datetimepicker-master\js\locales\bootstrap-datetimepicker.is.js" />
+    <Content Include="Resource\bootstrap-datetimepicker-master\js\locales\bootstrap-datetimepicker.it.js" />
+    <Content Include="Resource\bootstrap-datetimepicker-master\js\locales\bootstrap-datetimepicker.ja.js" />
+    <Content Include="Resource\bootstrap-datetimepicker-master\js\locales\bootstrap-datetimepicker.ka.js" />
+    <Content Include="Resource\bootstrap-datetimepicker-master\js\locales\bootstrap-datetimepicker.ko.js" />
+    <Content Include="Resource\bootstrap-datetimepicker-master\js\locales\bootstrap-datetimepicker.lt.js" />
+    <Content Include="Resource\bootstrap-datetimepicker-master\js\locales\bootstrap-datetimepicker.lv.js" />
+    <Content Include="Resource\bootstrap-datetimepicker-master\js\locales\bootstrap-datetimepicker.ms.js" />
+    <Content Include="Resource\bootstrap-datetimepicker-master\js\locales\bootstrap-datetimepicker.nb.js" />
+    <Content Include="Resource\bootstrap-datetimepicker-master\js\locales\bootstrap-datetimepicker.nl.js" />
+    <Content Include="Resource\bootstrap-datetimepicker-master\js\locales\bootstrap-datetimepicker.no.js" />
+    <Content Include="Resource\bootstrap-datetimepicker-master\js\locales\bootstrap-datetimepicker.pl.js" />
+    <Content Include="Resource\bootstrap-datetimepicker-master\js\locales\bootstrap-datetimepicker.pt-BR.js" />
+    <Content Include="Resource\bootstrap-datetimepicker-master\js\locales\bootstrap-datetimepicker.pt.js" />
+    <Content Include="Resource\bootstrap-datetimepicker-master\js\locales\bootstrap-datetimepicker.ro.js" />
+    <Content Include="Resource\bootstrap-datetimepicker-master\js\locales\bootstrap-datetimepicker.rs-latin.js" />
+    <Content Include="Resource\bootstrap-datetimepicker-master\js\locales\bootstrap-datetimepicker.rs.js" />
+    <Content Include="Resource\bootstrap-datetimepicker-master\js\locales\bootstrap-datetimepicker.ru.js" />
+    <Content Include="Resource\bootstrap-datetimepicker-master\js\locales\bootstrap-datetimepicker.sk.js" />
+    <Content Include="Resource\bootstrap-datetimepicker-master\js\locales\bootstrap-datetimepicker.sl.js" />
+    <Content Include="Resource\bootstrap-datetimepicker-master\js\locales\bootstrap-datetimepicker.sv.js" />
+    <Content Include="Resource\bootstrap-datetimepicker-master\js\locales\bootstrap-datetimepicker.sw.js" />
+    <Content Include="Resource\bootstrap-datetimepicker-master\js\locales\bootstrap-datetimepicker.th.js" />
+    <Content Include="Resource\bootstrap-datetimepicker-master\js\locales\bootstrap-datetimepicker.tr.js" />
+    <Content Include="Resource\bootstrap-datetimepicker-master\js\locales\bootstrap-datetimepicker.ua.js" />
+    <Content Include="Resource\bootstrap-datetimepicker-master\js\locales\bootstrap-datetimepicker.uk.js" />
+    <Content Include="Resource\bootstrap-datetimepicker-master\js\locales\bootstrap-datetimepicker.zh-CN.js" />
+    <Content Include="Resource\bootstrap-datetimepicker-master\js\locales\bootstrap-datetimepicker.zh-TW.js" />
+    <Content Include="Resource\bootstrap-datetimepicker-master\sample in bootstrap v2\bootstrap\css\bootstrap.css" />
+    <Content Include="Resource\bootstrap-datetimepicker-master\sample in bootstrap v2\bootstrap\css\bootstrap.min.css" />
+    <Content Include="Resource\bootstrap-datetimepicker-master\sample in bootstrap v2\bootstrap\img\glyphicons-halflings-white.png" />
+    <Content Include="Resource\bootstrap-datetimepicker-master\sample in bootstrap v2\bootstrap\img\glyphicons-halflings.png" />
+    <Content Include="Resource\bootstrap-datetimepicker-master\sample in bootstrap v2\bootstrap\js\bootstrap.js" />
+    <Content Include="Resource\bootstrap-datetimepicker-master\sample in bootstrap v2\bootstrap\js\bootstrap.min.js" />
+    <Content Include="Resource\bootstrap-datetimepicker-master\sample in bootstrap v2\index.html" />
+    <Content Include="Resource\bootstrap-datetimepicker-master\sample in bootstrap v2\jquery\jquery-1.8.3.min.js" />
+    <Content Include="Resource\bootstrap-datetimepicker-master\sample in bootstrap v3\bootstrap\css\bootstrap-theme.css" />
+    <Content Include="Resource\bootstrap-datetimepicker-master\sample in bootstrap v3\bootstrap\css\bootstrap-theme.min.css" />
+    <Content Include="Resource\bootstrap-datetimepicker-master\sample in bootstrap v3\bootstrap\css\bootstrap.css" />
+    <Content Include="Resource\bootstrap-datetimepicker-master\sample in bootstrap v3\bootstrap\css\bootstrap.min.css" />
+    <Content Include="Resource\bootstrap-datetimepicker-master\sample in bootstrap v3\bootstrap\fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="Resource\bootstrap-datetimepicker-master\sample in bootstrap v3\bootstrap\js\bootstrap.js" />
+    <Content Include="Resource\bootstrap-datetimepicker-master\sample in bootstrap v3\bootstrap\js\bootstrap.min.js" />
+    <Content Include="Resource\bootstrap-datetimepicker-master\sample in bootstrap v3\index.html" />
+    <Content Include="Resource\bootstrap-datetimepicker-master\sample in bootstrap v3\jquery\jquery-1.8.3.min.js" />
+    <Content Include="Resource\bootstrap-datetimepicker-master\screenshot\standard_day.png" />
+    <Content Include="Resource\bootstrap-datetimepicker-master\screenshot\standard_day_meridian.png" />
+    <Content Include="Resource\bootstrap-datetimepicker-master\screenshot\standard_decade.png" />
+    <Content Include="Resource\bootstrap-datetimepicker-master\screenshot\standard_full.png" />
+    <Content Include="Resource\bootstrap-datetimepicker-master\screenshot\standard_hour.png" />
+    <Content Include="Resource\bootstrap-datetimepicker-master\screenshot\standard_hour_meridian.png" />
+    <Content Include="Resource\bootstrap-datetimepicker-master\screenshot\standard_month.png" />
+    <Content Include="Resource\bootstrap-datetimepicker-master\screenshot\standard_year.png" />
+    <Content Include="Resource\bootstrap-datetimepicker-master\tests\assets\coverage.js" />
+    <Content Include="Resource\bootstrap-datetimepicker-master\tests\assets\jquery-1.7.1.min.js" />
+    <Content Include="Resource\bootstrap-datetimepicker-master\tests\assets\mock.js" />
+    <Content Include="Resource\bootstrap-datetimepicker-master\tests\assets\qunit-logging.js" />
+    <Content Include="Resource\bootstrap-datetimepicker-master\tests\assets\qunit.css" />
+    <Content Include="Resource\bootstrap-datetimepicker-master\tests\assets\qunit.js" />
+    <Content Include="Resource\bootstrap-datetimepicker-master\tests\assets\utils.js" />
+    <Content Include="Resource\bootstrap-datetimepicker-master\tests\run-qunit.js" />
+    <Content Include="Resource\bootstrap-datetimepicker-master\tests\suites\component.js" />
+    <Content Include="Resource\bootstrap-datetimepicker-master\tests\suites\events.js" />
+    <Content Include="Resource\bootstrap-datetimepicker-master\tests\suites\formats.js" />
+    <Content Include="Resource\bootstrap-datetimepicker-master\tests\suites\inline.js" />
+    <Content Include="Resource\bootstrap-datetimepicker-master\tests\suites\keyboard_navigation\2011.js" />
+    <Content Include="Resource\bootstrap-datetimepicker-master\tests\suites\keyboard_navigation\2012.js" />
+    <Content Include="Resource\bootstrap-datetimepicker-master\tests\suites\keyboard_navigation\all.js" />
+    <Content Include="Resource\bootstrap-datetimepicker-master\tests\suites\mouse_navigation\2011.js" />
+    <Content Include="Resource\bootstrap-datetimepicker-master\tests\suites\mouse_navigation\2012.js" />
+    <Content Include="Resource\bootstrap-datetimepicker-master\tests\suites\mouse_navigation\all.js" />
+    <Content Include="Resource\bootstrap-datetimepicker-master\tests\suites\options.js" />
+    <Content Include="Resource\bootstrap-datetimepicker-master\tests\tests.html" />
+    <Content Include="Resource\bootstrap-datetimepicker-master\tests\tests.min.html" />
+    <Content Include="Resource\bootstrap-datetimepicker-master\tests\_coverage.html" />
+    <Content Include="Resource\Img\alert.png" />
+    <Content Include="Resource\Img\Clear.png" />
+    <Content Include="Resource\Img\coast\0.bmp" />
+    <Content Include="Resource\Img\coast\0.png" />
+    <Content Include="Resource\Img\coast\1.bmp" />
+    <Content Include="Resource\Img\coast\1.png" />
+    <Content Include="Resource\Img\coast\2.bmp" />
+    <Content Include="Resource\Img\coast\2.png" />
+    <Content Include="Resource\Img\coast\3.bmp" />
+    <Content Include="Resource\Img\coast\3.png" />
+    <Content Include="Resource\Img\coast\4.bmp" />
+    <Content Include="Resource\Img\coast\4.png" />
+    <Content Include="Resource\Img\coast\5.bmp" />
+    <Content Include="Resource\Img\coast\5.png" />
+    <Content Include="Resource\Img\DefaultImg.jpg" />
+    <Content Include="Resource\Img\Layer_map.jpg" />
+    <Content Include="Resource\Img\Layer_satellite.jpg" />
+    <Content Include="Resource\Img\Layer_terrain.jpg" />
+    <Content Include="Resource\Img\loading.gif" />
+    <Content Include="Resource\Img\Logo.png" />
+    <Content Include="Resource\Img\Logo1.png" />
+    <Content Include="Resource\Img\mud\0.bmp" />
+    <Content Include="Resource\Img\mud\0.png" />
+    <Content Include="Resource\Img\mud\1.bmp" />
+    <Content Include="Resource\Img\mud\1.png" />
+    <Content Include="Resource\Img\mud\2.bmp" />
+    <Content Include="Resource\Img\mud\2.png" />
+    <Content Include="Resource\Img\mud\3.bmp" />
+    <Content Include="Resource\Img\mud\3.png" />
+    <Content Include="Resource\Img\mud\4.bmp" />
+    <Content Include="Resource\Img\mud\4.png" />
+    <Content Include="Resource\Img\mud\5.bmp" />
+    <Content Include="Resource\Img\mud\5.png" />
+    <Content Include="Resource\Img\Search.png" />
+    <Content Include="Resource\Img\TiandituIcon.png" />
+    <Content Include="Resource\Scripts\bootstrap-3.3.7-dist\css\bootstrap-theme.css" />
+    <Content Include="Resource\Scripts\bootstrap-3.3.7-dist\css\bootstrap-theme.min.css" />
+    <Content Include="Resource\Scripts\bootstrap-3.3.7-dist\css\bootstrap.css" />
+    <Content Include="Resource\Scripts\bootstrap-3.3.7-dist\css\bootstrap.min.css" />
+    <Content Include="Resource\Scripts\bootstrap-3.3.7-dist\fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="Resource\Scripts\bootstrap-3.3.7-dist\js\bootstrap.js" />
+    <Content Include="Resource\Scripts\bootstrap-3.3.7-dist\js\bootstrap.min.js" />
+    <Content Include="Resource\Scripts\bootstrap-3.3.7-dist\js\npm.js" />
+    <Content Include="Resource\Scripts\bootstrap-treeview.js" />
+    <Content Include="Resource\Scripts\build.css" />
+    <Content Include="Resource\Scripts\fileinput\fileinput.css" />
+    <Content Include="Resource\Scripts\fileinput\fileinput.js" />
+    <Content Include="Resource\Scripts\fileinput\fileinput_locale_zh.js" />
+    <Content Include="Resource\Scripts\font-awesome.min.css" />
+    <Content Include="Resource\Scripts\img\loading-sm.gif" />
+    <Content Include="Resource\Scripts\img\loading.gif" />
+    <Content Include="Resource\Scripts\jquery-3.2.1.js" />
+    <Content Include="Resource\Scripts\jquery-3.2.1.min.js" />
+    <Content Include="Resource\Scripts\jquery-ui.js" />
+    <Content Include="Resource\Scripts\jquery-ui.min.js" />
+    <Content Include="Resource\Scripts\jquery.table2excel.js" />
+    <Content Include="Resource\Scripts\MyCss.css" />
+    <Content Include="Resource\Scripts\MyJs.js" />
+    <Content Include="Resource\Scripts\sweetalert\sweetalert-dev.min.js" />
+    <Content Include="Resource\Scripts\sweetalert\sweetalert.css" />
+    <Content Include="Views\Home\HomePage.aspx" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Views\Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+    <Folder Include="Models\" />
+    <Folder Include="Resource\UpImages\" />
+    <Folder Include="Views\Base\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Lab.MIS.BLL\Lab.MIS.BLL.csproj">
+      <Project>{7ADFBF4B-7981-4E99-864C-58BEFE0C4173}</Project>
+      <Name>Lab.MIS.BLL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Lab.MIS.Model\Lab.MIS.Model.csproj">
+      <Project>{8CDB6F7C-4E56-40F4-9302-FE7E78613C4B}</Project>
+      <Name>Lab.MIS.Model</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Resource\Scripts\bootstrap-3.3.7-dist\css\bootstrap-theme.css.map" />
+    <Content Include="Resource\Scripts\bootstrap-3.3.7-dist\css\bootstrap-theme.min.css.map" />
+    <Content Include="Resource\Scripts\bootstrap-3.3.7-dist\css\bootstrap.css.map" />
+    <Content Include="Resource\Scripts\bootstrap-3.3.7-dist\css\bootstrap.min.css.map" />
+    <Content Include="Resource\Scripts\bootstrap-3.3.7-dist\fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="Resource\Scripts\bootstrap-3.3.7-dist\fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="Resource\Scripts\bootstrap-3.3.7-dist\fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="Resource\Scripts\bootstrap-3.3.7-dist\fonts\glyphicons-halflings-regular.woff2" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Resource\bootstrap-datetimepicker-master\.jshintrc" />
+    <Content Include="Resource\bootstrap-datetimepicker-master\.npmignore" />
+    <Content Include="Resource\bootstrap-datetimepicker-master\.travis.yml" />
+    <Content Include="Resource\bootstrap-datetimepicker-master\bower.json" />
+    <Content Include="Resource\bootstrap-datetimepicker-master\build\build.less" />
+    <Content Include="Resource\bootstrap-datetimepicker-master\build\build_standalone.less" />
+    <Content Include="Resource\bootstrap-datetimepicker-master\less\datetimepicker.less" />
+    <Content Include="Resource\bootstrap-datetimepicker-master\LICENSE" />
+    <Content Include="Resource\bootstrap-datetimepicker-master\minify.sh" />
+    <Content Include="Resource\bootstrap-datetimepicker-master\package.json" />
+    <Content Include="Resource\bootstrap-datetimepicker-master\README.md" />
+    <Content Include="Resource\bootstrap-datetimepicker-master\sample in bootstrap v3\bootstrap\fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="Resource\bootstrap-datetimepicker-master\sample in bootstrap v3\bootstrap\fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="Resource\bootstrap-datetimepicker-master\sample in bootstrap v3\bootstrap\fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="Resource\bootstrap-datetimepicker-master\tests\README.md" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Controllers\PicUpload.ashx" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <Target Name="MvcBuildViews" AfterTargets="AfterBuild" Condition="'$(MvcBuildViews)'=='true'">
+    <AspNetCompiler VirtualPath="temp" PhysicalPath="$(WebProjectOutputDir)" />
+  </Target>
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>56818</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:56819/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target> -->
+</Project>

@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="DataModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2008" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="DeviceInfo">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="DeviceName" Type="nvarchar" MaxLength="50" />
+    <Property Name="ShuCaiNum" Type="nvarchar" MaxLength="50" />
+    <Property Name="SensorNum" Type="nvarchar" MaxLength="50" />
+    <Property Name="PhoneNum" Type="nvarchar" MaxLength="50" />
+    <Property Name="YaoshiNum" Type="nvarchar" MaxLength="50" />
+    <Property Name="DeviceLon" Type="decimal" Precision="10" Scale="7" Nullable="false" />
+    <Property Name="DeviceLat" Type="decimal" Precision="10" Scale="7" Nullable="false" />
+    <Property Name="MonitorType" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="MonitorName" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="MonitorPointInfoId" Type="int" Nullable="false" />
+    <Property Name="Beizhu" Type="nvarchar" MaxLength="255" />
+  </EntityType>
+  <EntityType Name="MonitorPointInfo">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="MonitorId" Type="int" Nullable="false" />
+    <Property Name="Name" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Type" Type="nvarchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <EntityType Name="PointPicture">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="PicPath" Type="nvarchar" MaxLength="200" Nullable="false" />
+    <Property Name="DeviceInfoId" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="UserInfo">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="UserName" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="UserPwd" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="UserAuthority" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityContainer Name="DataModelStoreContainer">
+    <EntitySet Name="DeviceInfo" EntityType="Self.DeviceInfo" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="MonitorPointInfo" EntityType="Self.MonitorPointInfo" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="PointPicture" EntityType="Self.PointPicture" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="UserInfo" EntityType="Self.UserInfo" Schema="dbo" store:Type="Tables" />
+  </EntityContainer>
+</Schema>

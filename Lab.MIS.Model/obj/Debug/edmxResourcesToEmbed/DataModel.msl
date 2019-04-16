@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="DataModelStoreContainer" CdmEntityContainer="DataModelContainer">
+    <EntitySetMapping Name="UserInfo">
+      <EntityTypeMapping TypeName="IsTypeOf(DataModel.UserInfo)">
+        <MappingFragment StoreEntitySet="UserInfo">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="UserName" ColumnName="UserName" />
+          <ScalarProperty Name="UserPwd" ColumnName="UserPwd" />
+          <ScalarProperty Name="UserAuthority" ColumnName="UserAuthority" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PointPicture">
+      <EntityTypeMapping TypeName="IsTypeOf(DataModel.PointPicture)">
+        <MappingFragment StoreEntitySet="PointPicture">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="PicPath" ColumnName="PicPath" />
+          <ScalarProperty Name="DeviceInfoId" ColumnName="DeviceInfoId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="DeviceInfo">
+      <EntityTypeMapping TypeName="IsTypeOf(DataModel.DeviceInfo)">
+        <MappingFragment StoreEntitySet="DeviceInfo">
+          <ScalarProperty Name="Beizhu" ColumnName="Beizhu" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="DeviceName" ColumnName="DeviceName" />
+          <ScalarProperty Name="ShuCaiNum" ColumnName="ShuCaiNum" />
+          <ScalarProperty Name="SensorNum" ColumnName="SensorNum" />
+          <ScalarProperty Name="PhoneNum" ColumnName="PhoneNum" />
+          <ScalarProperty Name="YaoshiNum" ColumnName="YaoshiNum" />
+          <ScalarProperty Name="DeviceLon" ColumnName="DeviceLon" />
+          <ScalarProperty Name="DeviceLat" ColumnName="DeviceLat" />
+          <ScalarProperty Name="MonitorType" ColumnName="MonitorType" />
+          <ScalarProperty Name="MonitorName" ColumnName="MonitorName" />
+          <ScalarProperty Name="MonitorPointInfoId" ColumnName="MonitorPointInfoId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="MonitorPointInfo">
+      <EntityTypeMapping TypeName="IsTypeOf(DataModel.MonitorPointInfo)">
+        <MappingFragment StoreEntitySet="MonitorPointInfo">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="MonitorId" ColumnName="MonitorId" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Type" ColumnName="Type" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema xmlns="http://schemas.microsoft.com/ado/2009/11/edm" xmlns:cg="http://schemas.microsoft.com/ado/2006/04/codegeneration" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" Namespace="DataModel" Alias="Self" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" annotation:UseStrongSpatialTypes="false">
+  <EntityContainer Name="DataModelContainer" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="UserInfo" EntityType="DataModel.UserInfo" />
+    <EntitySet Name="PointPicture" EntityType="DataModel.PointPicture" />
+    <EntitySet Name="DeviceInfo" EntityType="DataModel.DeviceInfo" />
+    <EntitySet Name="MonitorPointInfo" EntityType="DataModel.MonitorPointInfo" />
+    <AssociationSet Name="MonitorPointInfoDeviceInfo" Association="DataModel.MonitorPointInfoDeviceInfo">
+      <End EntitySet="MonitorPointInfo" Role="MonitorPointInfo" />
+      <End EntitySet="DeviceInfo" Role="DeviceInfo" />
+    </AssociationSet>
+    <AssociationSet Name="DeviceInfoPointPicture" Association="DataModel.DeviceInfoPointPicture">
+      <End Role="DeviceInfo" EntitySet="DeviceInfo" />
+      <End Role="PointPicture" EntitySet="PointPicture" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="UserInfo">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="UserName" Type="String" Nullable="false" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="UserPwd" Type="String" Nullable="false" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="UserAuthority" Type="Int32" Nullable="false" />
+  </EntityType>
+  <EntityType Name="PointPicture">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="PicPath" Type="String" Nullable="false" MaxLength="200" Unicode="true" FixedLength="false" />
+    <NavigationProperty Name="DeviceInfo" Relationship="DataModel.DeviceInfoPointPicture" FromRole="PointPicture" ToRole="DeviceInfo" />
+    <Property Name="DeviceInfoId" Type="Int32" Nullable="false" />
+  </EntityType>
+  <EntityType Name="DeviceInfo">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="DeviceName" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="ShuCaiNum" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="SensorNum" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="PhoneNum" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="YaoshiNum" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="DeviceLon" Type="Decimal" Nullable="false" Precision="10" Scale="7" />
+    <Property Name="DeviceLat" Type="Decimal" Nullable="false" Precision="10" Scale="7" />
+    <Property Name="MonitorType" Type="String" MaxLength="50" Unicode="true" FixedLength="false" Nullable="false" />
+    <Property Name="MonitorName" Type="String" MaxLength="50" Unicode="true" FixedLength="false" Nullable="false" />
+    <NavigationProperty Name="MonitorPointInfo" Relationship="DataModel.MonitorPointInfoDeviceInfo" FromRole="DeviceInfo" ToRole="MonitorPointInfo" />
+    <Property Name="MonitorPointInfoId" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="PointPicture" Relationship="DataModel.DeviceInfoPointPicture" FromRole="DeviceInfo" ToRole="PointPicture" />
+    <Property Name="Beizhu" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="MonitorPointInfo">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Nullable="false" annotation:StoreGeneratedPattern="Identity" Type="Int32" />
+    <Property Name="MonitorId" Nullable="false" Type="Int32" />
+    <Property Name="Name" Nullable="false" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="Type" Nullable="false" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <NavigationProperty Name="DeviceInfo" Relationship="DataModel.MonitorPointInfoDeviceInfo" FromRole="MonitorPointInfo" ToRole="DeviceInfo" />
+  </EntityType>
+  <Association Name="MonitorPointInfoDeviceInfo">
+    <End Type="DataModel.MonitorPointInfo" Multiplicity="1" Role="MonitorPointInfo" />
+    <End Type="DataModel.DeviceInfo" Multiplicity="*" Role="DeviceInfo" />
+    <ReferentialConstraint>
+      <Principal Role="MonitorPointInfo">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="DeviceInfo">
+        <PropertyRef Name="MonitorPointInfoId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="DeviceInfoPointPicture">
+    <End Type="DataModel.DeviceInfo" Role="DeviceInfo" Multiplicity="1" />
+    <End Type="DataModel.PointPicture" Role="PointPicture" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="DeviceInfo">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="PointPicture">
+        <PropertyRef Name="DeviceInfoId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>

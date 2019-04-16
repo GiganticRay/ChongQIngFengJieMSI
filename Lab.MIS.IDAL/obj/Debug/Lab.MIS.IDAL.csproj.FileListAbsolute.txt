@@ -1,0 +1,112 @@
+D:\Experience_Lab\CQfengjiexianLandslideDebrisFlowGeologicalDisasterDetectionAndWarningSystem\Lab.MIS.MonitorMIS\Lab.MIS.IDAL\bin\Debug\Lab.MIS.IDAL.dll
+D:\Experience_Lab\CQfengjiexianLandslideDebrisFlowGeologicalDisasterDetectionAndWarningSystem\Lab.MIS.MonitorMIS\Lab.MIS.IDAL\bin\Debug\Lab.MIS.IDAL.pdb
+D:\Experience_Lab\CQfengjiexianLandslideDebrisFlowGeologicalDisasterDetectionAndWarningSystem\Lab.MIS.MonitorMIS\Lab.MIS.IDAL\obj\Debug\Lab.MIS.IDAL.csprojResolveAssemblyReference.cache
+D:\Experience_Lab\CQfengjiexianLandslideDebrisFlowGeologicalDisasterDetectionAndWarningSystem\Lab.MIS.MonitorMIS\Lab.MIS.IDAL\obj\Debug\Lab.MIS.IDAL.dll
+D:\Experience_Lab\CQfengjiexianLandslideDebrisFlowGeologicalDisasterDetectionAndWarningSystem\Lab.MIS.MonitorMIS\Lab.MIS.IDAL\obj\Debug\Lab.MIS.IDAL.pdb
+D:\Experience_Lab\CQfengjiexianLandslideDebrisFlowGeologicalDisasterDetectionAndWarningSystem\Lab.MIS.MonitorMIS\Lab.MIS.IDAL\bin\Debug\Lab.MIS.Model.dll
+D:\Experience_Lab\CQfengjiexianLandslideDebrisFlowGeologicalDisasterDetectionAndWarningSystem\Lab.MIS.MonitorMIS\Lab.MIS.IDAL\bin\Debug\EntityFramework.dll
+D:\Experience_Lab\CQfengjiexianLandslideDebrisFlowGeologicalDisasterDetectionAndWarningSystem\Lab.MIS.MonitorMIS\Lab.MIS.IDAL\bin\Debug\Lab.MIS.Model.pdb
+D:\Experience_Lab\CQfengjiexianLandslideDebrisFlowGeologicalDisasterDetectionAndWarningSystem\Lab.MIS.MonitorMIS\Lab.MIS.IDAL\bin\Debug\EntityFramework.xml
+D:\Experience_Lab\CQfengjiexianLandslideDebrisFlowGeologicalDisasterDetectionAndWarningSystem\Lab.MIS.MonitorMIS\Lab.MIS.IDAL\bin\Debug\zh-Hans\EntityFramework.resources.dll
+E:\泥石流滑坡预警系统\github\Lab.MIS.MonitorMIS\Lab.MIS.IDAL\bin\Debug\Lab.MIS.IDAL.dll
+E:\泥石流滑坡预警系统\github\Lab.MIS.MonitorMIS\Lab.MIS.IDAL\bin\Debug\Lab.MIS.IDAL.pdb
+E:\泥石流滑坡预警系统\github\Lab.MIS.MonitorMIS\Lab.MIS.IDAL\bin\Debug\Lab.MIS.Model.dll
+E:\泥石流滑坡预警系统\github\Lab.MIS.MonitorMIS\Lab.MIS.IDAL\bin\Debug\EntityFramework.dll
+E:\泥石流滑坡预警系统\github\Lab.MIS.MonitorMIS\Lab.MIS.IDAL\bin\Debug\Lab.MIS.Model.pdb
+E:\泥石流滑坡预警系统\github\Lab.MIS.MonitorMIS\Lab.MIS.IDAL\bin\Debug\EntityFramework.xml
+E:\泥石流滑坡预警系统\github\Lab.MIS.MonitorMIS\Lab.MIS.IDAL\bin\Debug\zh-Hans\EntityFramework.resources.dll
+E:\泥石流滑坡预警系统\github\Lab.MIS.MonitorMIS\Lab.MIS.IDAL\obj\Debug\Lab.MIS.IDAL.csprojResolveAssemblyReference.cache
+E:\泥石流滑坡预警系统\github\Lab.MIS.MonitorMIS\Lab.MIS.IDAL\obj\Debug\Lab.MIS.IDAL.dll
+E:\泥石流滑坡预警系统\github\Lab.MIS.MonitorMIS\Lab.MIS.IDAL\obj\Debug\Lab.MIS.IDAL.pdb
+F:\课程集合\工程实践2\clone\Lab.MIS.IDAL\bin\Debug\Lab.MIS.IDAL.dll
+F:\课程集合\工程实践2\clone\Lab.MIS.IDAL\bin\Debug\Lab.MIS.IDAL.pdb
+F:\课程集合\工程实践2\clone\Lab.MIS.IDAL\bin\Debug\Lab.MIS.Model.dll
+F:\课程集合\工程实践2\clone\Lab.MIS.IDAL\bin\Debug\EntityFramework.dll
+F:\课程集合\工程实践2\clone\Lab.MIS.IDAL\bin\Debug\Lab.MIS.Model.pdb
+F:\课程集合\工程实践2\clone\Lab.MIS.IDAL\bin\Debug\EntityFramework.xml
+F:\课程集合\工程实践2\clone\Lab.MIS.IDAL\bin\Debug\zh-Hans\EntityFramework.resources.dll
+F:\课程集合\工程实践2\clone\Lab.MIS.IDAL\obj\Debug\Lab.MIS.IDAL.csprojResolveAssemblyReference.cache
+F:\课程集合\工程实践2\clone\Lab.MIS.IDAL\obj\Debug\Lab.MIS.IDAL.dll
+F:\课程集合\工程实践2\clone\Lab.MIS.IDAL\obj\Debug\Lab.MIS.IDAL.pdb
+D:\Experience_Lab\CQfengjiexianLandslideDebrisFlowGeologicalDisasterDetectionAndWarningSystem\Git\Lab.MIS.MonitorMIS\Lab.MIS.IDAL\bin\Debug\Lab.MIS.IDAL.dll
+D:\Experience_Lab\CQfengjiexianLandslideDebrisFlowGeologicalDisasterDetectionAndWarningSystem\Git\Lab.MIS.MonitorMIS\Lab.MIS.IDAL\bin\Debug\Lab.MIS.IDAL.pdb
+D:\Experience_Lab\CQfengjiexianLandslideDebrisFlowGeologicalDisasterDetectionAndWarningSystem\Git\Lab.MIS.MonitorMIS\Lab.MIS.IDAL\bin\Debug\Lab.MIS.Model.dll
+D:\Experience_Lab\CQfengjiexianLandslideDebrisFlowGeologicalDisasterDetectionAndWarningSystem\Git\Lab.MIS.MonitorMIS\Lab.MIS.IDAL\bin\Debug\EntityFramework.dll
+D:\Experience_Lab\CQfengjiexianLandslideDebrisFlowGeologicalDisasterDetectionAndWarningSystem\Git\Lab.MIS.MonitorMIS\Lab.MIS.IDAL\bin\Debug\Lab.MIS.Model.pdb
+D:\Experience_Lab\CQfengjiexianLandslideDebrisFlowGeologicalDisasterDetectionAndWarningSystem\Git\Lab.MIS.MonitorMIS\Lab.MIS.IDAL\bin\Debug\EntityFramework.xml
+D:\Experience_Lab\CQfengjiexianLandslideDebrisFlowGeologicalDisasterDetectionAndWarningSystem\Git\Lab.MIS.MonitorMIS\Lab.MIS.IDAL\bin\Debug\zh-Hans\EntityFramework.resources.dll
+D:\Experience_Lab\CQfengjiexianLandslideDebrisFlowGeologicalDisasterDetectionAndWarningSystem\Git\Lab.MIS.MonitorMIS\Lab.MIS.IDAL\obj\Debug\Lab.MIS.IDAL.csprojResolveAssemblyReference.cache
+D:\Experience_Lab\CQfengjiexianLandslideDebrisFlowGeologicalDisasterDetectionAndWarningSystem\Git\Lab.MIS.MonitorMIS\Lab.MIS.IDAL\obj\Debug\Lab.MIS.IDAL.dll
+D:\Experience_Lab\CQfengjiexianLandslideDebrisFlowGeologicalDisasterDetectionAndWarningSystem\Git\Lab.MIS.MonitorMIS\Lab.MIS.IDAL\obj\Debug\Lab.MIS.IDAL.pdb
+G:\GitHub\Lab.MIS.IDAL\bin\Debug\Lab.MIS.IDAL.dll
+G:\GitHub\Lab.MIS.IDAL\bin\Debug\Lab.MIS.IDAL.pdb
+G:\GitHub\Lab.MIS.IDAL\bin\Debug\Lab.MIS.Model.dll
+G:\GitHub\Lab.MIS.IDAL\bin\Debug\EntityFramework.dll
+G:\GitHub\Lab.MIS.IDAL\bin\Debug\Lab.MIS.Model.pdb
+G:\GitHub\Lab.MIS.IDAL\bin\Debug\EntityFramework.xml
+G:\GitHub\Lab.MIS.IDAL\bin\Debug\zh-Hans\EntityFramework.resources.dll
+G:\GitHub\Lab.MIS.IDAL\obj\Debug\Lab.MIS.IDAL.csprojResolveAssemblyReference.cache
+G:\GitHub\Lab.MIS.IDAL\obj\Debug\Lab.MIS.IDAL.dll
+G:\GitHub\Lab.MIS.IDAL\obj\Debug\Lab.MIS.IDAL.pdb
+E:\工程实践\Lab.MIS.MonitorMIS\Lab.MIS.IDAL\bin\Debug\Lab.MIS.IDAL.dll
+E:\工程实践\Lab.MIS.MonitorMIS\Lab.MIS.IDAL\bin\Debug\Lab.MIS.IDAL.pdb
+E:\工程实践\Lab.MIS.MonitorMIS\Lab.MIS.IDAL\bin\Debug\Lab.MIS.Model.dll
+E:\工程实践\Lab.MIS.MonitorMIS\Lab.MIS.IDAL\bin\Debug\EntityFramework.dll
+E:\工程实践\Lab.MIS.MonitorMIS\Lab.MIS.IDAL\bin\Debug\Lab.MIS.Model.pdb
+E:\工程实践\Lab.MIS.MonitorMIS\Lab.MIS.IDAL\bin\Debug\EntityFramework.xml
+E:\工程实践\Lab.MIS.MonitorMIS\Lab.MIS.IDAL\bin\Debug\zh-Hans\EntityFramework.resources.dll
+E:\工程实践\Lab.MIS.MonitorMIS\Lab.MIS.IDAL\obj\Debug\Lab.MIS.IDAL.csprojResolveAssemblyReference.cache
+E:\工程实践\Lab.MIS.MonitorMIS\Lab.MIS.IDAL\obj\Debug\Lab.MIS.IDAL.dll
+E:\工程实践\Lab.MIS.MonitorMIS\Lab.MIS.IDAL\obj\Debug\Lab.MIS.IDAL.pdb
+E:\大学\泥石流滑坡预警系统\Lab.MIS.IDAL\bin\Debug\Lab.MIS.IDAL.dll
+E:\大学\泥石流滑坡预警系统\Lab.MIS.IDAL\bin\Debug\Lab.MIS.IDAL.pdb
+E:\大学\泥石流滑坡预警系统\Lab.MIS.IDAL\bin\Debug\Lab.MIS.Model.dll
+E:\大学\泥石流滑坡预警系统\Lab.MIS.IDAL\bin\Debug\EntityFramework.dll
+E:\大学\泥石流滑坡预警系统\Lab.MIS.IDAL\bin\Debug\Lab.MIS.Model.pdb
+E:\大学\泥石流滑坡预警系统\Lab.MIS.IDAL\bin\Debug\EntityFramework.xml
+E:\大学\泥石流滑坡预警系统\Lab.MIS.IDAL\bin\Debug\zh-Hans\EntityFramework.resources.dll
+E:\大学\泥石流滑坡预警系统\Lab.MIS.IDAL\obj\Debug\Lab.MIS.IDAL.csprojResolveAssemblyReference.cache
+E:\大学\泥石流滑坡预警系统\Lab.MIS.IDAL\obj\Debug\Lab.MIS.IDAL.dll
+E:\大学\泥石流滑坡预警系统\Lab.MIS.IDAL\obj\Debug\Lab.MIS.IDAL.pdb
+G:\GitHub\Lab.MIS.IDAL\bin\Debug\Lab.MIS.Model.dll.config
+G:\GitHub\Lab.MIS.IDAL\obj\Debug\Lab.MIS.IDAL.csproj.CoreCompileInputs.cache
+E:\大学\工程实践2\Lab.MIS.IDAL\bin\Debug\Lab.MIS.IDAL.dll
+E:\大学\工程实践2\Lab.MIS.IDAL\bin\Debug\Lab.MIS.IDAL.pdb
+E:\大学\工程实践2\Lab.MIS.IDAL\bin\Debug\Lab.MIS.Model.dll
+E:\大学\工程实践2\Lab.MIS.IDAL\bin\Debug\EntityFramework.dll
+E:\大学\工程实践2\Lab.MIS.IDAL\bin\Debug\Lab.MIS.Model.pdb
+E:\大学\工程实践2\Lab.MIS.IDAL\bin\Debug\EntityFramework.xml
+E:\大学\工程实践2\Lab.MIS.IDAL\bin\Debug\zh-Hans\EntityFramework.resources.dll
+E:\大学\工程实践2\Lab.MIS.IDAL\obj\Debug\Lab.MIS.IDAL.csprojResolveAssemblyReference.cache
+E:\大学\工程实践2\Lab.MIS.IDAL\obj\Debug\Lab.MIS.IDAL.dll
+E:\大学\工程实践2\Lab.MIS.IDAL\obj\Debug\Lab.MIS.IDAL.pdb
+E:\大学\泥石流滑坡预警系统\2018-07-08 12.25\泥石流滑坡预警系统\Lab.MIS.IDAL\bin\Debug\Lab.MIS.IDAL.dll
+E:\大学\泥石流滑坡预警系统\2018-07-08 12.25\泥石流滑坡预警系统\Lab.MIS.IDAL\bin\Debug\Lab.MIS.IDAL.pdb
+E:\大学\泥石流滑坡预警系统\2018-07-08 12.25\泥石流滑坡预警系统\Lab.MIS.IDAL\bin\Debug\Lab.MIS.Model.dll
+E:\大学\泥石流滑坡预警系统\2018-07-08 12.25\泥石流滑坡预警系统\Lab.MIS.IDAL\bin\Debug\EntityFramework.dll
+E:\大学\泥石流滑坡预警系统\2018-07-08 12.25\泥石流滑坡预警系统\Lab.MIS.IDAL\bin\Debug\Lab.MIS.Model.pdb
+E:\大学\泥石流滑坡预警系统\2018-07-08 12.25\泥石流滑坡预警系统\Lab.MIS.IDAL\bin\Debug\EntityFramework.xml
+E:\大学\泥石流滑坡预警系统\2018-07-08 12.25\泥石流滑坡预警系统\Lab.MIS.IDAL\bin\Debug\zh-Hans\EntityFramework.resources.dll
+E:\大学\泥石流滑坡预警系统\2018-07-08 12.25\泥石流滑坡预警系统\Lab.MIS.IDAL\obj\Debug\Lab.MIS.IDAL.csprojResolveAssemblyReference.cache
+E:\大学\泥石流滑坡预警系统\2018-07-08 12.25\泥石流滑坡预警系统\Lab.MIS.IDAL\obj\Debug\Lab.MIS.IDAL.dll
+E:\大学\泥石流滑坡预警系统\2018-07-08 12.25\泥石流滑坡预警系统\Lab.MIS.IDAL\obj\Debug\Lab.MIS.IDAL.pdb
+E:\大学\泥石流滑坡预警系统\coding\Lab.MIS.IDAL\bin\Debug\Lab.MIS.IDAL.dll
+E:\大学\泥石流滑坡预警系统\coding\Lab.MIS.IDAL\bin\Debug\Lab.MIS.IDAL.pdb
+E:\大学\泥石流滑坡预警系统\coding\Lab.MIS.IDAL\bin\Debug\Lab.MIS.Model.dll
+E:\大学\泥石流滑坡预警系统\coding\Lab.MIS.IDAL\bin\Debug\EntityFramework.dll
+E:\大学\泥石流滑坡预警系统\coding\Lab.MIS.IDAL\bin\Debug\Lab.MIS.Model.pdb
+E:\大学\泥石流滑坡预警系统\coding\Lab.MIS.IDAL\bin\Debug\EntityFramework.xml
+E:\大学\泥石流滑坡预警系统\coding\Lab.MIS.IDAL\bin\Debug\zh-Hans\EntityFramework.resources.dll
+E:\大学\泥石流滑坡预警系统\coding\Lab.MIS.IDAL\obj\Debug\Lab.MIS.IDAL.csprojResolveAssemblyReference.cache
+E:\大学\泥石流滑坡预警系统\coding\Lab.MIS.IDAL\obj\Debug\Lab.MIS.IDAL.dll
+E:\大学\泥石流滑坡预警系统\coding\Lab.MIS.IDAL\obj\Debug\Lab.MIS.IDAL.pdb
+D:\Experience_Lab\LHGitCQfengjie\Lab.MIS.IDAL\bin\Debug\Lab.MIS.IDAL.dll
+D:\Experience_Lab\LHGitCQfengjie\Lab.MIS.IDAL\bin\Debug\Lab.MIS.IDAL.pdb
+D:\Experience_Lab\LHGitCQfengjie\Lab.MIS.IDAL\bin\Debug\Lab.MIS.Model.dll
+D:\Experience_Lab\LHGitCQfengjie\Lab.MIS.IDAL\bin\Debug\EntityFramework.dll
+D:\Experience_Lab\LHGitCQfengjie\Lab.MIS.IDAL\bin\Debug\Lab.MIS.Model.pdb
+D:\Experience_Lab\LHGitCQfengjie\Lab.MIS.IDAL\bin\Debug\EntityFramework.xml
+D:\Experience_Lab\LHGitCQfengjie\Lab.MIS.IDAL\bin\Debug\zh-Hans\EntityFramework.resources.dll
+D:\Experience_Lab\LHGitCQfengjie\Lab.MIS.IDAL\obj\Debug\Lab.MIS.IDAL.csprojResolveAssemblyReference.cache
+D:\Experience_Lab\LHGitCQfengjie\Lab.MIS.IDAL\obj\Debug\Lab.MIS.IDAL.dll
+D:\Experience_Lab\LHGitCQfengjie\Lab.MIS.IDAL\obj\Debug\Lab.MIS.IDAL.pdb
